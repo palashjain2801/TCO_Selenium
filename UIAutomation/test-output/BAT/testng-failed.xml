@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BAT]">
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="TestCases.TestLogin">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TestCases.TestLogin -->
+      <class name="TestCases.TestCreateWorkflow">
+        <methods>
+          <include name="createWorkflow"/>
+        </methods>
+      </class> <!-- TestCases.TestCreateWorkflow -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [BAT] -->

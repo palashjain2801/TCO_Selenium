@@ -1,0 +1,38 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+public class TestCreateWorkflow {
+	@Test
+	public void createWorkflow() throws InterruptedException {
+		Thread.sleep(20000);
+		WebElement automationTile = TestLogin.webdriver.findElement(By.xpath("//*[text()='Automation FrameWork']"));
+		automationTile.click();
+
+		Thread.sleep(5000);
+
+		WebElement createScenarioB = TestLogin.webdriver.findElement(By.xpath("//*[@id='__button15-inner']"));
+		createScenarioB.click();
+
+		Thread.sleep(5000);
+
+		WebElement downArrowB = TestLogin.webdriver.findElement(By.xpath(
+				"(//span[@class='sapMPanelExpandableIcon sapUiIcon sapUiIconMirrorInRTL sapUiIconPointer'])[1]"));
+		downArrowB.click();
+
+		WebElement canvas = TestLogin.webdriver.findElement(By.xpath("//*[@id='canvas']"));
+		
+		WebElement webi=TestLogin.webdriver.findElement(By.xpath("(//*[@class='listText sapMText sapMTextNoWrap sapUiSelectable'])[4]"));
+
+		Actions action = new Actions(TestLogin.webdriver);
+		action.clickAndHold(webi)
+				.moveToElement(canvas, 150, 150).release().build().perform();
+
+		action.moveToElement(canvas, 104, 99).click().build().perform();
+		
+		
+	}
+}

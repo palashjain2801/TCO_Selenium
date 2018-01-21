@@ -1,0 +1,413 @@
+!SESSION 2018-01-19 14:04:03.225 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-01-19 14:04:55.892
+!MESSAGE Both 'com.sap.adt.packages' and 'com.sap.adt.packages' register a package for 'http://www.sap.com/adt/packages'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-19 14:05:06.150
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\C5257213'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.sap.ide.ui5.services 1 1 2018-01-19 14:05:11.737
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:07:20.673
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59884 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 59884 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:18:15.023
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60808 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\Users\C5257213\AppData\Local\Temp\testng-eclipse-1109342603\testng-customsuite.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 60808 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\Users\C5257213\AppData\Local\Temp\testng-eclipse-1109342603\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:18:15.025
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60807 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\Users\C5257213\AppData\Local\Temp\testng-eclipse-1111651096\testng-customsuite.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 60807 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\Users\C5257213\AppData\Local\Temp\testng-eclipse-1111651096\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:20:49.136
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61033 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 61033 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:22:52.859
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61352 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 61352 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-01-19 14:23:04.121
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2018-01-19 14:23:04.122
+!MESSAGE session context was:(profile=C__Users_C5257213_eclipse_java-neon2_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.client,0.19.4.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.model,0.19.4.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.utils,0.19.4.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.branding,2.2.0.v20171211-1401
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.core,2.2.0.v20171211-1401
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.stsmigration,2.2.0.v20171211-1401
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.ui,2.2.0.v20171211-1401
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.archetype.common,1.8.2.20171007-0216
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core.ui,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.discovery,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor.xml,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.importer,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt.ui,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.launching,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.lifecyclemapping.defaults,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.logback.appender,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.logback.configuration,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.indexer,1.8.2.20171007-0216
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime,1.8.2.20171007-0216
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime.slf4j.simple,1.8.2.20171007-0216
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.model.edit,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.core,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.ui,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.refactoring,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.122
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.scm,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.123
+!MESSAGE No repository found containing: osgi.bundle,org.gradle.toolingapi,4.3.0.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.123
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.buildship,2.2.0.v20171211-1401
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.123
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.feature,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.123
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.logback.feature,1.8.2.20171007-0217
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-01-19 14:23:04.127
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2018-01-19 14:23:04.127
+!MESSAGE session context was:(profile=C__Users_C5257213_eclipse_java-neon2_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.127
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.client,0.19.4.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.127
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.model,0.19.4.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.utils,0.19.4.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.branding,2.2.0.v20171211-1401
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.core,2.2.0.v20171211-1401
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.stsmigration,2.2.0.v20171211-1401
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.ui,2.2.0.v20171211-1401
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.archetype.common,1.8.2.20171007-0216
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core.ui,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.discovery,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor.xml,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.importer,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt.ui,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.launching,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.lifecyclemapping.defaults,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.logback.appender,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.logback.configuration,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.indexer,1.8.2.20171007-0216
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime,1.8.2.20171007-0216
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime.slf4j.simple,1.8.2.20171007-0216
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.model.edit,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.core,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.ui,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.128
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.refactoring,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.129
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.scm,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.129
+!MESSAGE No repository found containing: osgi.bundle,org.gradle.toolingapi,4.3.0.v20171108133209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.129
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.buildship,2.2.0.v20171211-1401
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.129
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.feature,1.8.2.20171007-0217
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-01-19 14:23:04.129
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.logback.feature,1.8.2.20171007-0217
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:29:31.635
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61879 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 61879 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:31:12.880
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61942 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 61942 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:35:12.078
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62013 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 62013 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:37:27.129
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62064 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 62064 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:40:58.753
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62133 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 62133 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:41:36.432
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62162 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 62162 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 14:45:49.577
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62365 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 62365 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 15:00:59.390
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64129 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 64129 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 15:02:24.001
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64295 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\Users\C5257213\AppData\Local\Temp\testng-eclipse-766704235\testng-customsuite.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 64295 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\Users\C5257213\AppData\Local\Temp\testng-eclipse-766704235\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 15:03:18.436
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64373 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 64373 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 15:04:36.948
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64510 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 64510 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 15:06:54.847
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61093 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 61093 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 15:09:36.378
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61182 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 61182 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 15:34:13.419
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63278 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 63278 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 15:42:00.471
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64501 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 64501 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 16:10:27.666
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53350 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 53350 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 16:18:24.795
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55859 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 55859 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 16:22:23.779
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56612 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 56612 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 16:50:19.499
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61336 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 61336 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 17:36:35.266
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56237 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 56237 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 17:37:48.787
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56572 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 56572 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 17:42:19.280
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57755 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 57755 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 17:45:47.932
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58765 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 58765 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 17:50:07.483
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60014 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 60014 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 17:58:51.704
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62710 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 62710 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-01-19 18:02:55.748
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\TCO_Selenium\UIAutomation\bin C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63798 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
+java -ea -classpath C:\Users\C5257213\.p2\pool\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\TCO_Selenium\UIAutomation\bin:C:\TCO_Selenium\UIAutomation\JARS\selenium-server-standalone-3.8.1.jar:C:\TCO_Selenium\UIAutomation\JARS\testng-6.7.jar org.testng.remote.RemoteTestNG -serport 63798 -protocol json -d C:\TCO_Selenium\UIAutomation\test-output C:\TCO_Selenium\UIAutomation\testng.xml
